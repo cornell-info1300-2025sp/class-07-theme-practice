@@ -1,0 +1,62 @@
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+}
+
+h2 {
+  border-bottom: 1px solid #acacac;
+}
+
+blockquote {
+  border-radius: 6px;
+  background-color: #eff0f5;
+  border: 1px solid #cacaca;
+  font-family: monospace;
+}
+
+em {
+  font-style: normal;
+  background-color: #eff0f5;
+  font-family: monospace;
+}
+
+p strong {
+  color: #6094e0;
+  border-left: 4px solid #165cdd;
+}
+
+section p strong {
+  border: none;
+  color: #000000;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  min-width: 400px;
+}
+
+header img {
+  width: auto;
+  min-width: auto;
+}
+
+nav menu {
+  margin: 0;
+  padding: 0;
+}
+
+nav menu li {
+  list-style: none;
+}
+
+nav menu li a {
+  display: block;
+  padding: 10px;
+}
